@@ -1,0 +1,528 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.main-of-page {
+    background-color: #fff;
+}
+.main {
+    position: relative;
+    height: 460px;
+}
+.main .focus {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.main .focus div {
+    position: relative;
+}
+.main img{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 460px;
+}
+.main .list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 234px;
+    height: 460px;
+    z-index: 11;
+    background-color: rgba(105,101,101,.6);
+    
+}
+.main .list ul li {
+    position: relative;
+}
+.main .list ul li div {
+    position: absolute;
+    top: -20px;
+    height: 460px;
+    width: 992px;
+    left: 234px;
+    background-color: #fff;
+}
+.main .list ul li div img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+.main .list ul li div ul {
+    float: left;
+    width: 248px;
+    height: 460px;
+    margin: 0;
+}
+.main .list ul li div ul li {
+    height: 76px;
+    width: 100%;
+    line-height: 76px;
+}
+.main .list ul li div ul li a {
+    display: block;
+    padding-top: 23px;
+    height: 76px;
+    line-height: 76px;
+    width: 248px;
+}
+.main .list ul li div ul li a span {
+    float: right;
+}
+.main .next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 41px;
+    height: 69px;
+    line-height: 69px;
+    z-index: 10;
+    transform: translate(0,-50%);
+    background-color: transparent;
+}
+.main .next::after {
+    content: '';
+    font-family: 'icomoon';
+    font-size: 38px;
+}
+.main .prev {
+    position: absolute;
+    left: 234px;
+    top: 50%;
+    z-index: 10;
+    width: 41px;
+    height: 69px;
+    line-height: 69px;
+    transform: translate(0,-50%);
+    background-color: transparent;
+}
+.main .prev::before {
+    content: '';
+    font-family: 'icomoon';
+    font-size: 38px;
+}
+.main .list ul{
+    margin-top: 20px;
+}
+.main .list>ul>li {
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 20px;
+}
+.main .list ul li i {
+    float: right;
+    height: 42px;
+    margin-right: 20px;
+}
+.main .list ul li i::after {
+    content: '';
+    font-family: 'icomoon';
+}
+.main .list>ul>li:hover {
+    background-color: #ff6a00;
+}
+.main .circle ul {
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    right: 5px;
+}
+.main .circle ul li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 6px;
+    border: 1px solid #ccc;
+    background-color: #757575;
+}
+.current {
+    background-color: #333 !important;
+}
+.sub-main {
+    height: 170px;
+    margin-top: 20px;
+}
+.sub-main .sub-nav {
+    float: left;
+    height: 100%;
+    width: 234px;
+    background-color: #5f5750;
+}
+.sub-main .sub-nav ul li{
+    float: left;
+    width: 78px;
+    height: 85px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    opacity: .7;
+    border-right: 1px solid #757575;
+
+}
+.sub-main .sub-nav ul li a {
+    display: block;
+    color: #fff;
+}
+.sub-main .sub-nav ul li div {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'icomoon';
+}
+
+.sub-main .sub-nav ul li:nth-child(-n+3){
+    border-bottom: 1px solid #757575;
+}
+.sub-main .sub-nav ul li:nth-child(3n){
+    border-right: 0;
+}
+.sub-main>ul li {
+    margin-left: 14px;
+    float: left;
+    width: 316px;
+    height: 170px;
+    background-color: pink;
+}
+.sub-main>ul li img {
+    width: 100%;
+}
+.main-product {
+    height: 120px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.main-product img {
+    width: 100%;
+}
+aside {
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+    width: 85px;
+    height: 462.5px;
+    z-index: 999;
+    text-align: center;
+}
+aside .aside {
+    width: 100%;
+    height: 462.5px;
+    background-color: #fff;
+}
+.back {
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 92.5px;
+    background-color: #fff;
+    padding-top: 10px;
+}
+.back div p {
+    height: 40px;
+    font-family: 'icomoon';
+    line-height: 40px;
+    font-size: 30px;
+}
+.aside div {
+    height: 92.5px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    /* line-height: 92.5px; */
+}
+.aside div p{
+    height: 40px;
+    font-family: 'icomoon';
+    line-height: 40px;
+    font-size: 20px;
+}
+.floor .shouji{
+    height: 688px;
+    margin-top: 20px;
+}
+.floor  .title {
+    height: 58px;
+    line-height: 58px;
+}
+.floor  .title h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+.floor  .title .more {
+    float: right;
+    height: 58px;
+    line-height: 58px;
+    font-size: 18px;
+}
+.floor  .title .more a {
+    transition: all .4s;
+}
+.floor  .title .more a i::after {
+    content: '';
+    font-size: px;
+    font-family: 'icomoon';
+}
+.floor  .products {
+    position: relative;
+    height: 628px;
+    width: 1226px;
+}
+.floor img {
+    width: 100%;
+}
+.floor .products .first {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 614px;
+    background-color: #fff;
+    transition: all .4s;
+}
+.floor .products .first:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+.floor .products .others {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 996px;
+    height: 260px;
+}
+.floor .products .others ul li {
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    height: 300px;
+    margin-top: 14px;
+    text-align: center;
+    background-color: #fff;
+    transition: all .4s;
+}
+.floor .products .others ul li:nth-child(-n+4){
+    margin-top: 0;
+}
+.floor .products .others ul li img {
+    margin-top: 20px;
+    width: 160px;
+}
+.floor .products .others ul li a:hover {
+    color: #757575;
+}
+.floor .products .others ul li:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+.floor .products .others ul li div{
+    margin-top: 10px;
+    width: 220px;
+    margin-left: 7px;
+}
+.floor .products .others ul li div h4 {
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+}
+.floor  .products .others ul .pro div p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.floor  .products .others ul .pro div p:last-child {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ff6a00;
+}
+.floor .products .others ul .jiangjia div span {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ff6a00;
+}
+.floor .products .others ul .jiangjia div span:last-child {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #757575;
+}
+.floor .chuandai{
+    height: 686px;
+    margin-top: 20px;
+}
+.floor .change {
+    float: right;
+}
+.floor .change a {
+    margin-left: 30px;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.change_current {
+    color: #ff6a00;
+    border-bottom: 1px solid #ff6a00;
+}
+.floor .products .others ul .small img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+}
+.floor .products .others ul .small {
+    position: relative;
+    height: 143px;
+    width: 234px;
+    line-height: 123px;
+}
+.floor .products .others ul .small div {
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+.floor .products .others ul .small div p:nth-child(-n+2) {
+    font-size: 14px;
+    text-align: left;
+}
+.floor .products .others ul .small div p:last-child {
+    text-align: left;
+    margin-top: 20px;
+    color: #ff6a00;
+}
+.floor .products .others ul .more div {
+    position: relative;
+}
+.floor .products .others ul .more div p:first-child {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 18px;
+    color: #333;
+}
+.floor .products .others ul .more div p:last-child {
+    color: #757575;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.floor .products .others ul .more i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.floor .products .others ul .more i::after {
+    content: '';
+    font-size: 30px;
+    color: #ff6a00;
+    font-family: 'icomoon';
+}
+.floor .jiadian .products .others {
+    width: 1226px;
+}
+.floor .jiadian .products .others ul li:nth-child(-5n+6) {
+    margin-left: 0;
+    padding-top: 0;
+}
+.floor .jiadian .products .others ul li:nth-child(-5n+6) img {
+    margin-top: 0;
+}
+.floor .jiadian .products .others ul li:nth-child(5){
+    margin-top: 0;
+}
+.floor .jiadian .products .others ul li:nth-child(-5n+6) img {
+    width: 100%;
+}
+.floor .shenghuo .products .others {
+    width: 1226px;
+}
+.floor .shenghuo .products .others ul li:nth-child(-5n+6) {
+    margin-left: 0;
+}
+.floor .shenghuo .products .others ul li:nth-child(5){
+    margin-top: 0;
+}
+.floor .shenghuo .products .others ul li:nth-child(-5n+6) img {
+    width: 100%;
+}
+.floor .shenghuo .products .others ul li:nth-child(-5n+6) img {
+    margin-top: 0;
+}
+.floor .chufang .products .others {
+    width: 1226px;
+}
+.floor .chufang .products .others ul li:nth-child(-5n+6) {
+    margin-left: 0;
+}
+.floor .chufang .products .others ul li:nth-child(5){
+    margin-top: 0;
+}
+.floor .chufang .products .others ul li:nth-child(-5n+6) img {
+    width: 100%;
+}
+.floor .chufang .products .others ul li:nth-child(-5n+6) img {
+    margin-top: 0;
+}
+.floor .jiaju .products .others {
+    width: 1226px;
+}
+.floor .jiaju .products .others ul li:nth-child(-5n+6) {
+    margin-left: 0;
+}
+.floor .jiaju .products .others ul li:nth-child(5){
+    margin-top: 0;
+}
+.floor .jiaju .products .others ul li:nth-child(-5n+6) img {
+    width: 100%;
+}
+.floor .jiaju .products .others ul li:nth-child(-5n+6) img {
+    margin-top: 0;
+}
+.floor .chuxing .products .others {
+    width: 1226px;
+}
+.floor .chuxing .products .others ul li:nth-child(-5n+6) {
+    margin-left: 0;
+}
+.floor .chuxing .products .others ul li:nth-child(5){
+    margin-top: 0;
+}
+.floor .chuxing .products .others ul li:nth-child(-5n+6) img {
+    width: 100%;
+}
+.floor .chuxing .products .others ul li:nth-child(-5n+6) img {
+    margin-top: 0;
+}
+.floor .baihuo .products .others {
+    width: 1226px;
+}
+.floor .baihuo .products .others ul li:nth-child(-5n+6) {
+    margin-left: 0;
+}
+.floor .baihuo .products .others ul li:nth-child(5){
+    margin-top: 0;
+}
+.floor .baihuo .products .others ul li:nth-child(-5n+6) img {
+    width: 100%;
+}
+.floor .baihuo .products .others ul li:nth-child(-5n+6) img {
+    margin-top: 0;
+}
+.floor .main-product {
+    height: 120px;
+}
+.floor .main-product img {
+    width: 100%;
+}

@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+body {
+      background-color: #f5f5f5;
+      min-width: 1226px;
+}
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+.top_nav {
+    background-color: #333;
+}
+.shortcut {
+    height: 40px;
+    line-height: 40px;
+    width: 1226px;
+
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+.fr {
+    float: left;
+    height: 40px;
+}
+.fr a {
+    float: left;
+    height: 15px;
+    font-size: 12px;
+    padding: 0 8px;
+    color: #b0b0b0;
+}
+.shortcut a:hover {
+    color:#fff;
+}
+.shortcut span {
+    float: left;
+    margin-top: 14px;
+    width: 1px;
+    height: 12px;
+    background-color: #424242;
+} 
+.login {
+    float: right;
+}
+.login a {
+    float: left;
+    color: #b0b0b0;
+    height: 15px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.shoppingcar {
+    float: right;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background-color: #424242;
+}
+.shoppingcar::before{
+    content: '';
+    font-family: 'icomoon';
+}
+.shoppingcar:hover {
+    color: #ff6a00;
+    background-color: #fff;
+}
+.bgc {
+    position: relative;
+    height: 100px;
+    background-color: #fff;
+}
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+header .logo {
+    float: left;
+    font-size: 0;
+}
+header .logo a {
+    display: block;
+    margin-top: 22px;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo-mi2.png) no-repeat;
+    background-size: 100%;
+}
+.header nav{
+    margin-left: 250px;
+}
+.header nav ul {
+    display: inline-block;
+    height: 100%;
+}
+.header nav li {
+    float: left;
+    line-height: 100px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 10px;
+}
+.header nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bgc .products {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    height: 175px;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 6px 8px -12px #000;
+}
+.bgc .products ul li {
+    float: left;
+    padding: 0;
+    height: 175px;
+    width: 204px;
+    line-height: 20px;
+    text-align: center;
+}
+.bgc .products ul li p{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.bgc .products ul li p:last-child {
+    margin-top: 0;
+    color: #ff6a00;
+}
+.bgc .products ul li div {
+    margin: 20px 0 0;
+    width: 100%;
+    height: 84px;
+    border-right: 1px solid #ccc;
+}
+.bgc .products ul a:hover {
+    color: #666;
+}
+.bgc .products ul li:last-child div {
+    border-right: 0;
+}
+.header .search {
+    float: right;
+    height: 50px;
+    width: 301px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+
+}
+.header .search .search_text {
+    float: left;
+    width: 250px;
+    height: 50px;
+    border-right: 1px solid #ccc;
+}
+.header .search .search_btn {
+    font-family: 'icomoon';
+    float: left;
+    width: 46px;
+    height: 50px;
+    font-size: 16px;
+    color: #616161;
+    background-color: #ffffff;
+}
+
+.footer {
+    height: 600px;
+    margin-top: 20px;
+}
+.footer .server {
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.footer .server ul li {
+    float: left;
+    margin-top: 30px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    width: 19.8%;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+.footer .server ul li a{
+    transition: all .4s;
+}
+.footer .server ul li:first-child {
+    border-left: 0;
+}
+.footer .server ul li:nth-child(1) i::before{
+    content: '';
+    font-family: 'icomoon';
+}
+.footer .server ul li:nth-child(2) i::before{
+    content: '';
+    font-family: 'icomoon';
+}
+.footer .server ul li:nth-child(3) i::before{
+    content: '';
+    font-family: 'icomoon';
+}
+.footer .server ul li:nth-child(4) i::before{
+    content: '';
+    font-family: 'icomoon';
+}
+.footer .server ul li:nth-child(5) i::before{
+    content: '';
+    font-family: 'icomoon';
+}
+.footer .links {
+    height: 260px;
+    background-color: #fff;
+}
+.footer .links .left {
+    float: left;
+    height: 260px;
+    width: 980.6px;
+}
+.footer .links .left dl {
+    margin: 30px 0 0 100px;
+    float: left;
+}
+.footer .links .left dl:first-child {
+    margin-left: 0;
+}
+.footer .links .left dl dt {
+    /* font-weight: 700; */
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+.backg{
+    background-color: #fff;
+}
+dl dd {
+    color: #ccc;
+    margin-top: 10px; 
+}
+.footer .links .right {
+    float: right;
+    width: 245.4px;
+    height: 260px;
+}
+.footer .links .right .info {
+    height: 112px;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+.footer .links .right .info p:first-child {
+    font-size: 18px;
+    color: #ff6a00;
+}
+.footer .links .right .info div {
+    width: 150px;
+    height: 30px;
+    margin-left: 45px;
+    line-height: 30px;
+    color: #ff6a00;
+    border: 1px solid #ff6a00;
+}
+.footer .links .right .info div::before {
+    content: '';
+    font-family: 'icomoon';
+}
+.footer .links .right .info div:hover {
+    background-color: #ff6a00;
+    color: #fff;
+}
+.first_icon::after {
+    font-size: 18px;
+    content: '';
+    font-family: 'icomoon';
+}
+.second_icon::after {
+    font-size: 18px;
+    content: '';
+    font-family: 'icomoon';
+}
+.copyright {
+    margin-top: 20px;
+    height: 220px;
+}
+.copyright .bottom_logo img {
+    width: 56px;
+}
+.copyright .bottom_logo {
+    float: left;
+}
+.copyright .info-text{
+    float: left;
+    margin-left: 20px;
+}
+.copyright .info-text p:nth-child(-n+2){
+    font-size: 14px;
+    color: #757575;
+}
+.copyright .info-text p:nth-child(n+2){
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.copyright .info-text img {
+    width: 83px;
+    height: 28px;
+}
+.footer .slogan {
+    height: 20px;
+    width: 368px;
+    margin:0 auto;
+    background: url(../images/slogan2020.png) no-repeat;
+}
